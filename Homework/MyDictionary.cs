@@ -32,7 +32,7 @@ namespace MyDictionary
             _array[_array.Length - 1] = item;
             _array2[_array2.Length - 1] = item2;
         }
-        public void List(MyDictionary<K,V> myDictionary)
+        public void List()
         {
             foreach (var items in _array2)
             {

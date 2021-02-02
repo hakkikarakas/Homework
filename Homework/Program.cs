@@ -11,7 +11,7 @@ namespace Homework
             sehirler.Add(35,"İzmir");
             sehirler.Add(34, "İstanbul");
             sehirler.Add(06, "Ankara");
-            sehirler.List(sehirler);
+            sehirler.List();
         }
     }
 }
